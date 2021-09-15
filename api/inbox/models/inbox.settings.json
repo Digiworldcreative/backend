@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inboxes",
+  "info": {
+    "name": "inbox"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "message": {
+      "type": "richtext"
+    }
+  }
+}
